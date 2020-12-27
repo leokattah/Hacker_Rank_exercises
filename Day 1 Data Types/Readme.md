@@ -1,3 +1,3 @@
-<img src = "./Problema.png">
+<img src = "../Problema.png">
 
-<img src = "./Resultado.jpg">
+<img src = "../Resultado.jpg">
