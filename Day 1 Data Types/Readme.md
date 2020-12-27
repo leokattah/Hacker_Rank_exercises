@@ -1,4 +1,4 @@
-### O código só roda na plataforma Haker Rank (https://www.hackerrank.com/)
+### O código só roda na plataforma HackerRank (https://www.hackerrank.com/)
 
 <img src = "./image/Problema.png">
 
