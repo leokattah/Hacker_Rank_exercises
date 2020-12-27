@@ -2,4 +2,4 @@
 
 <img src = "./image/Problema.png">
 
-<img src = "./image/resultado.png">
+<img src = "./image/resultado.jpg">
