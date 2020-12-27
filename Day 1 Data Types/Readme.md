@@ -48,4 +48,4 @@ When we concatenate HackerRank with is the best place to learn and practice codi
 
 You will not pass this challenge if you attempt to assign the Sample Case values to your variables instead of following the instructions above and reading input from stdin.
 
-<a src = "./Resultado.jpg">
+<img src = "./Resultado.jpg">
