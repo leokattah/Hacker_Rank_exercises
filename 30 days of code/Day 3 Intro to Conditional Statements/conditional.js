@@ -21,9 +21,6 @@ process.stdin.on('end', _ => {
 function readLine() {
     return inputString[currentLine++];
 }
-
-
-
 function main() {
     const N = parseInt(readLine(), 10);
     let result = (N % 2 === 1 || (N % 2 === 0 && N >= 6 && N <= 20)) ? 'Weird' : 'Not Weird';

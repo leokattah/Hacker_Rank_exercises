@@ -22,8 +22,9 @@ function readLine() {
     return inputString[currentLine++];
 }
 
-
-
 function main() {
     const n = parseInt(readLine(), 10);
+    for (let i = 0; i<=10; i++){
+        console.log(`${n} * ${i} = ${n * i}`);
+    }
 }
