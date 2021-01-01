@@ -26,8 +26,11 @@ function readLine() {
 
 // Complete the aVeryBigSum function below.
 function aVeryBigSum(ar) {
-
-
+    let totalSum = 0;
+    for (let i = 0; i < ar.length; i++) {
+        totalSum += ar[i];
+    }    
+    return totalSum;
 }
 
 function main() {
