@@ -1,5 +1,12 @@
 function processData(input) {
   //Enter your code here
+  //phoneBook = {(sam,99912222),(tom,11122222),(harry,12299933)}
+  //Usando o método split para colocar os elementos de entrada em um array.
+  //O método split() divide uma String em uma lista ordenada de substrings, 
+  //coloca essas substrings em um array e retorna o array. A divisão é feita procurando um padrão,
+  // onde o padrão é fornecido como o primeiro parâmetro na chamada do método.
+  // input é parâmetro da função processData(input).
+  
 input = input.split('\n');
   let phoneBook =  [];
   
