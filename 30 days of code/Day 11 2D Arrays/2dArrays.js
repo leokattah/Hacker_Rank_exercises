@@ -45,4 +45,3 @@ function main() {
   }
   console.log(greatestSum);
 }
-// a
