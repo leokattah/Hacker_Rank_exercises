@@ -37,7 +37,9 @@ class Student extends Person {
     */
     // Write your constructor here
     
-      constructor(firstName, lastName, id, scores) {
+    // Construtor da classe Student
+      constructor(firstName, lastName, id, scores) { 
+    // Chamando e iniciando o construtor da classe pai com a palavra "super" 
         super(firstName, lastName, id);
         this.scores = scores
     };
@@ -48,7 +50,7 @@ class Student extends Person {
     */
     // Write your method here
     
-
+// o método calculate está definido na variavel "s". Os parâmetros são definidos abaixo.
  calculate() {
         let avg = this.scores.reduce((a, b) => a + b) / this.scores.length;
         if (avg >= 90 && avg <= 100) return "O";
