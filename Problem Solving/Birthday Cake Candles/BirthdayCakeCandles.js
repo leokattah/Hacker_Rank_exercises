@@ -31,9 +31,16 @@ function readLine() {
 
 function birthdayCakeCandles(candles) {
     // Write your code here
-
+    // A função deve percorrer o array e descobrir qual é o maior número de todos. 
+    // Em seguida, a função deve contar quantas vezes este número aparece no array. 
+    
+function birthdayCakeCandles(candles) {
+    let maxNum = Math.max(...candles);
+    let filtered = candles.filter(function(value, index, arr) {
+        return value === maxNum;
+    });
+    return filtered.length;
 }
-
 function main() {
     const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
 
