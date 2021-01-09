@@ -50,7 +50,7 @@ class Student extends Person {
     */
     // Write your method here
     
-// o método calculate está definido na variavel "s". Os parâmetros são definidos abaixo.
+// o método calculate está definido na variável "s". Os parâmetros são definidos abaixo.
  calculate() {
         let avg = this.scores.reduce((a, b) => a + b) / this.scores.length;
         if (avg >= 90 && avg <= 100) return "O";
