@@ -3,4 +3,4 @@
 <img src = "./image/problema.png">
 
 <img src = "./image/resultado.jpg">
-..
+
