@@ -33,7 +33,31 @@ function BinarySearchTree() {
   
   // Start of function getHeight
   this.getHeight = function(root) {
+if (root === null) return -1;
 
-      // Add your code here
+return Math.max(this.getHeight(root.left), this.getHeight(root.right)) + 1;
 
   }; // End of function getHeight
+}; // End of function BinarySearchTree
+
+process.stdin.resume();
+process.stdin.setEncoding('ascii');
+
+var _input = "";
+
+process.stdin.on('data', function (data) {
+  _input += data;
+});
+
+process.stdin.on('end', function () {
+  var tree = new BinarySearchTree();
+  var root = null;
+  
+  var values = _input.split('\n').map(Number);
+  
+  for (var i = 1; i < values.length; i++) {
+      root = tree.insert(root, values[i]);
+  }
+  
+  console.log(tree.getHeight(root));
+});
