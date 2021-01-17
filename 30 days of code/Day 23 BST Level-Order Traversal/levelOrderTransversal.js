@@ -34,8 +34,22 @@ function BinarySearchTree() {
   // Start of function levelOrder
   this.levelOrder = function(root) {
 
-      // Add your code here
-      // To print values separated by spaces use process.stdout.write(someValue + ' ')
+  let q = [];
+  let dataArr = [];
+  q.push(root);
+  while (q.length > 0) {
+      let getdata = q.shift();
+      dataArr.push(getdata.data)
+      if (getdata.left) {
+          q.push(getdata.left)
+      }
+      if (getdata.right) {
+          q.push(getdata.right);
+      }
+
+  }
+  console.log(dataArr.join(" "));
+
 
 }; // End of function levelOrder
 }; // End of function BinarySearchTree
